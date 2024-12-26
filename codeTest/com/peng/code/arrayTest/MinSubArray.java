@@ -16,6 +16,7 @@ public class MinSubArray {
      * 精华：控制i变化
      */
     public int minSubArrayLen(int target, int[] nums) {
+
         int i=0;
         int sum=0;  // 窗口内值和
         int minLength=Integer.MAX_VALUE;
