@@ -10,7 +10,7 @@ import java.util.Map;
  * @Description 3-无重复字符的最长子串
  */
 
-public class one {
+public class OneTh {
 
     public int lengthOfLongestSubstring(String s) {
         int i=0;    // 窗口左侧
