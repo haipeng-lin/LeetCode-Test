@@ -1,15 +1,15 @@
-package com.peng.code;
+package com.peng.code.sort;
 
 import java.util.Random;
 
 /**
  * @Author haipeng_lin
  * @Mailbox haipeng_lin@163.com
- * @Date 2024/12/29 11:09
- * @Description 912-快速排序
+ * @Date 2025/1/2 16:26
+ * @Description 快速排序-912
  */
 
-public class SixTh {
+public class QuickSort {
     public int[] sortArray(int[] nums) {
         quickSort(nums,0,nums.length-1);
         return nums;
@@ -46,9 +46,9 @@ public class SixTh {
         return slow;
     }
 
-    public static void swap(int[] nums,int left,int right){
-        int tmp=nums[left];
-        nums[left]=nums[right];
-        nums[right]=tmp;
+    public static void swap(int[] nums,int left,int right) {
+        int tmp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = tmp;
     }
 }
